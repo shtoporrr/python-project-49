@@ -1,6 +1,7 @@
 .DS_Store
 .venv
 __pycache__/
+*/__pycache__
 dist/
 .ruff_cache/
 stage_5.cast
