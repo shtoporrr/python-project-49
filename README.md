@@ -67,4 +67,4 @@ brain-progression:
 
 brain-prime:
 
-<a href="https://asciinema.org/a/1Gj8kijE6g3iHurjuIMvg4tr2" target="_blank"><img src="https://asciinema.org/a/1Gj8kijE6g3iHurjuIMvg4tr2.svg" /></a>
+<script src="https://asciinema.org/a/1Gj8kijE6g3iHurjuIMvg4tr2.js" id="asciicast-1Gj8kijE6g3iHurjuIMvg4tr2" async="true"></script>
