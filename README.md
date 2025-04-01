@@ -18,7 +18,7 @@ Brain Games
 Иструкция по установке:
 
 1. Клонирование репозитория:
-    git clone https://github.com/your_username/python-project-49.git
+    git clone https://github.com/shtoporrr/python-project-49.git
     cd python-project-49
 
 2. Установка зависимостей с использованием <a href="https://docs.astral.sh/uv/" target="_blank">uv</a>:
