@@ -1,6 +1,8 @@
 import random
 
+
 DESCRIPTION = "What number is missing in the progression?"
+
 
 def generate_progression():
     length = random.randint(5, 10)
@@ -11,6 +13,7 @@ def generate_progression():
     correct_answer = progression[hidden_index]
     progression[hidden_index] = ".."
     return progression, correct_answer
+
 
 def play_rounds():
     rounds = 3
@@ -25,9 +28,11 @@ def play_rounds():
             if int(user_answer) == correct_answer:
                 print("Correct!")
             else:
-                print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+                print(f"'{user_answer}' is wrong answer ;(. 
+                Correct answer was '{correct_answer}'.")
                 return False
         except ValueError:
-            print(f"'{user_answer}' is not a valid number. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is not a valid number. 
+            Correct answer was '{correct_answer}'.")
             return False
     return True

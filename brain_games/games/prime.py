@@ -1,6 +1,8 @@
 import random
 
+
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(n):
     if n < 2:
@@ -9,6 +11,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
 
 def play_rounds():
     rounds = 3
@@ -23,6 +26,7 @@ def play_rounds():
         if user_answer == correct_answer:
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. 
+            Correct answer was '{correct_answer}'.")
             return False
     return True

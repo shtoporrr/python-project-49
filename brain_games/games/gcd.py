@@ -1,7 +1,9 @@
 import random
 import math
 
+
 DESCRIPTION = "Find the greatest common divisor of given numbers."
+
 
 def play_rounds():
     rounds = 3
@@ -18,10 +20,12 @@ def play_rounds():
             if int(user_answer) == correct_answer:
                 print("Correct!")
             else:
-                print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+                print(f"'{user_answer}' is wrong answer ;(. 
+                Correct answer was '{correct_answer}'.")
                 return False
         except ValueError:
-            print(f"'{user_answer}' is not a valid number. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is not a valid number. 
+            Correct answer was '{correct_answer}'.")
             return False
             
     return True

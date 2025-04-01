@@ -1,6 +1,8 @@
 import random
 
+
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def play_rounds():
     rounds = 3
