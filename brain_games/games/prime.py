@@ -12,21 +12,8 @@ def is_prime(n):
             return False
     return True
 
-
-def play_rounds():
-    rounds = 3
-    
-    for _ in range(rounds):
-        number = random.randint(1, 100)
-        print(f"Question: {number}")
-        
-        user_answer = input("Your answer: ").strip().lower()
-        correct_answer = "yes" if is_prime(number) else "no"
-        
-        if user_answer == correct_answer:
-            print("Correct!")
-        else:
-            print(f"'{user_answer}' is wrong answer ;(. " +
-                    f"Correct answer was '{correct_answer}'.")
-            return False
-    return True
+def generate_round():
+    number = random.randint(1, 100)
+    question = str(number)
+    correct_answer = "yes" if is_prime(number) else "no"
+    return question, correct_answer
