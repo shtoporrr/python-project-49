@@ -1,6 +1,5 @@
 import random
 
-
 DESCRIPTION = "What number is missing in the progression?"
 
 
@@ -13,6 +12,7 @@ def generate_progression():
     correct_answer = progression[hidden_index]
     progression[hidden_index] = ".."
     return progression, correct_answer
+
 
 def generate_round():
     progression, correct_answer = generate_progression()
